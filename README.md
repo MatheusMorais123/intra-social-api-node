@@ -24,7 +24,7 @@ Acesse a coleção do Postman: REST API Intra Social.postman_collection.json
 - **GET /client/{id}:** Retorna um cliente específico pelo ID.
 - **POST /client:** Cria um novo cliente.
 - **PUT /client/{id}:** Atualiza um cliente existente.
-- **DELETE /api/client/{id}:** Exclui um cliente pelo ID.
+- **DELETE /client/{id}:** Exclui um cliente pelo ID.
 
 ### Agentes
 
@@ -37,7 +37,7 @@ Acesse a coleção do Postman: REST API Intra Social.postman_collection.json
 ## Parâmetros de Consulta
 
 - **status:** Filtra os clientes por status (opcional).
-- **agenteId:** Filtra os clientes por ID do agente (opcional).
+- **agenteNome:** Filtra os clientes por nome do agente (opcional).
 - **dataInicio:** Filtra os clientes por data de início (opcional).
 - **dataFim:** Filtra os clientes por data de término (opcional).
 
