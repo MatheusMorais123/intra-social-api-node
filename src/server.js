@@ -7,8 +7,8 @@ const mongoose = require('mongoose');
 //mongoose.connect('mongodb+srv://matheusmoraisvipaccess:gDyKvcRhTiVUKKXJ@cluster0.1m2cp6h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 
 mongoose.connect('mongodb+srv://matheusmoraisvipaccess:gDyKvcRhTiVUKKXJ@cluster0.1m2cp6h.mongodb.net/yourDatabaseName?retryWrites=true&w=majority', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+  //useNewUrlParser: true,
+  //useUnifiedTopology: true,
 })
 .then(() => {
   console.log('Connected to MongoDB');
